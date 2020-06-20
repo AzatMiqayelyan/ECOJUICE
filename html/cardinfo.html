@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="hy"><head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<title>Payment</title>
+</head>
+<body>
+
+	<a href="../html/shop.html" class="display-4 ml-5">×</a>
+	<div class="payment d-flex flex-column justify-content-center align-items-center">	
+		<div class="d-flex justify-content-around align-items-center">
+			<div class="img d-none d-md-block bg-info"><img src="https://static.wixstatic.com/media/18c26a_3d5890377473413f9389524d8805dbaa.jpg/v1/fill/w_215,h_215,al_c,q_80,usm_0.66_1.00_0.01/18c26a_3d5890377473413f9389524d8805dbaa.webp" alt="JUICE">
+
+			</div>
+			<div class="payment-info ml-3 mr-3"><form class="needs-validation" novalidate="">
+				<div class="form-row">
+					<div class="col-md-6 mb-3">
+						<label for="validationCustom01">Անուն</label>
+						<input type="text" class="form-control" id="validationCustom01" required="">
+						<div class="valid-feedback">
+							Շատ Լավ !
+						</div>
+					</div>
+					<div class="col-md-6 mb-3">
+						<label for="validationCustom02">Ազգանուն</label>
+						<input type="text" class="form-control" id="validationCustom02" required="">
+						<div class="valid-feedback">
+							Շատ Լավ !
+						</div>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="col-md-6 mb-3">
+						<label for="validationCustom03">Քաղաք</label>
+						<input type="text" class="form-control" id="validationCustom03" required="">
+						<div class="invalid-feedback">
+							Խնդրում ենք նշել քաղաքը
+						</div>
+					</div>
+					<div class="col-md-3 mb-3">
+						<label for="validationCustom04">Վարչական Շրջան</label>
+						<input type="text" class="form-control" id="validationCustom03" required="">
+
+						<div class="invalid-feedback">
+							Խնդրում ենք նշել վարչական շրջան
+						</div>
+					</div>
+					<div class="col-md-3 mb-3">
+						<label for="validationCustom05">Փոստային Համար</label>
+						<input type="text" class="form-control" id="validationCustom05" required="">
+						<div class="invalid-feedback">
+							Խնդրում ենք նշել փոստային համարը
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+				</div>
+				<button class="btn btn-primary mr-3" type="submit">Ավելացնել Զամբյուղ</button>
+				<button type="button" class="btn btn-success" data-toggle="modal" data-target="#buy">
+					Գնել!
+				</button>
+			</form>
+		</div>
+	</div>
+	<div class="price bg-info mt-3 w-75 w-md-25 mb-5"><p class="display-4 text-center display-md-2 mb-0 paragraph2">1560 &#1423;</p>
+	</div>
+</div>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="buy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Հասցե</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form action="" method="" novalidate="novalidate">
+                
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="location">
+                                  <div class="row">
+                                      <div class="col-sm-5 col-sm-offset-1">
+                                          <div class="form-group">
+                                              <label>Անուն</label>
+                                              <input type="text" class="form-control" id="exampleInputEmail1">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-5">
+                                          <div class="form-group">
+                                                <label>Country</label><br>
+                                                <select name="country" class="form-control">
+                            <option value="armenia">Հայաստան</option>
+                            <option value="russia">Ռուսաստան</option>
+                            <option value="usa">ԱՄՆ</option>
+                                                </select>
+                                            </div>
+                                      </div>
+                                      <div class="col-sm-5 col-sm-offset-1">
+                                          <div class="form-group">
+                          <label>Քազաք</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1">
+                                              
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-5">
+                        <div class="form-group">
+                          <label>Փոստային Համար</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1">
+                          
+                        </div>
+                                      </div>
+
+                      <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                          <label>Հասցե</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1">
+                          
+                        </div>
+
+                      </div>
+
+                      <div class="col-sm-5">
+                        <div class="form-group">
+                          <label>Հեռախոսահամար</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1">
+                          
+                        </div>
+                      </div>
+
+                                  </div>
+                                </div>
+</div></form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Փակել</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#payment">
+Շարունակել
+</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="payment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Վճարում</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+
+
+
+
+
+<form action="" method="" novalidate="novalidate">
+                          <div class="col-sm-2"></div>
+                <div class="card ">
+</div>
+      
+  <div class="form-row">
+    <div class="col-md-12 mb-3">
+      <label for="validationCustom01">Քարտի Համար</label>
+      <input type="text" class="form-control" id="validationCustom01" required placeholder="XXXX XXXX XXXX XXXX">
+      
+    </div>
+    <div class="col-md-12 mb-3">
+      <label for="validationCustom02">Անուն</label>
+      <input type="text" class="form-control" id="validationCustom02" required="">
+     
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Ժամկետը</label>
+      <input type="text" class="form-control" id="validationCustom03" required="" placeholder="MM/YY">
+      
+    </div>
+  </div>
+ 
+  
+</form>
+
+
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Փակել</button>
+        <a href="orders.html"  class="btn btn-primary">Շարունակել</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+	'use strict';
+	window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+    	form.addEventListener('submit', function(event) {
+    		if (form.checkValidity() === false) {
+    			event.preventDefault();
+    			event.stopPropagation();
+    		}
+    		form.classList.add('was-validated');
+    	}, false);
+    });
+}, false);
+})();
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body></html>

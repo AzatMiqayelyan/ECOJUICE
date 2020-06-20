@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  font-family: sans-serif;
+  background: url(../img/bg4.jpg);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+::selection {
+  color: #fff;
+  background: #F2CB05;
+}
+.content {
+  max-width: 1010px;
+  margin: 0 auto;
+  flex: 1 1 auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 25px;
+  height: 25px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  transition: 0.5s;
+  margin-right: 15px;
+}
+
+.icons__item:last-child {
+  margin-right: 0;
+}
+
+.icon {
+  text-decoration: none;
+  font-size: 0.75em;
+  color: gray;
+  transition: 0.5s;
+}
+
+.item1:hover {
+  border: 2px solid #E1306C;
+  box-shadow: 0 0 12px 5px rgba(225, 48, 108, 0.3);
+}
+.item1:hover .icon1 {
+  color: #E1306C;
+  text-shadow: 0 0 8px rgba(225, 48, 108, 0.8);
+}
+
+.item2:hover {
+  border: 2px solid #e1004f;
+  box-shadow: 0 0 12px 5px rgba(225, 0, 79, 0.3);
+}
+.item2:hover .icon2 {
+  color: #e1004f;
+  text-shadow: 0 0 8px rgba(225, 0, 79, 0.8);
+}
+
+.item3:hover {
+  border: 2px solid #4267B2;
+  box-shadow: 0 0 12px 5px rgba(66, 103, 178, 0.3);
+}
+.item3:hover .icon3 {
+  color: #4267B2;
+  text-shadow: 0 0 8px rgba(66, 103, 178, 0.8);
+}
+
+.item4:hover {
+  border: 2px solid #665CAC;
+  box-shadow: 0 0 12px 5px rgba(102, 92, 172, 0.3);
+}
+.item4:hover .icon4 {
+  color: #665CAC;
+  text-shadow: 0 0 8px rgba(102, 92, 172, 0.8);
+}
+
+.footer {
+  justify-content: space-evenly;
+  margin: 10px auto;
+}
+.footer p {
+  text-align: center;
+  font-size: 10px;
+  color: #777777;
+  margin: 0;
+  margin-right: 10px;
+}
+
+a.navbar-brand.rounded-circle {
+  height: 126px;
+  width: 126px;
+  text-align: center;
+  border: 1px solid #fb7d33;
+}
+a.navbar-brand.rounded-circle .logo {
+  color: #fb7d33;
+}
+
+img.lemon.d-none.d-sm-block {
+  margin-top: -240px;
+  margin-left: 20px;
+}
+
+.main {
+  margin: 20px auto;
+  max-width: 485px;
+  flex: 1 1 auto;
+}
+.main .info {
+  align-self: flex-start;
+  margin-left: -315px;
+  margin-top: 82px;
+}
+@media (max-width: 576px) {
+  .main .info {
+    margin-left: 0;
+    margin-top: 150px;
+  }
+  .main .info p {
+    font-size: 20px;
+  }
+}
+.main .info p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 29px;
+  color: #6C8801;
+  line-height: 1.3;
+}
+@media (max-width: 576px) {
+  .main .info p {
+    font-size: 18px;
+  }
+}
+.main .p-3 {
+  padding: 1rem 3rem !important;
+}
+
+.shop {
+  flex: 1 1 auto;
+}
+
+.cards {
+  max-width: 1010px;
+  margin: 0 auto;
+}
+.cards .card {
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.cards .card:hover {
+  transform: scale(1.05);
+}
+.cards .card h5 {
+  font-size: 16px;
+}
+.cards .card h5 .td-line {
+  margin-right: 5px;
+  text-decoration: line-through;
+}
+.cards .card .position-absolute {
+  top: 1px;
+  left: 1px;
+  opacity: 0.8;
+}
+
+.aboutus {
+  width: 1010px;
+  margin: 60px auto;
+  flex: 1 1 auto;
+}
+.aboutus .about-item p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+@media (max-width: 576px) {
+  .aboutus .about-item p {
+    font-size: 10px;
+  }
+}
+.aboutus .about-item img {
+  float: right;
+  margin-top: -90px;
+  shape-outside: polygon(60% 85%, 54.51% 90.01%, 46% 94.4%, 30% 96.4%, 19.16% 93.01%, 12.23% 86.79%, 9.2% 82.19%, 8.08% 72.41%, 9.88% 65.4%, 12.63% 61.39%, 16% 57%, 15.01% 18.34%, 15.25% 0.69%, 68% 7%, 74% 17%);
+  shape-margin: 15px;
+}
+
+.contact {
+  flex: 1 1 auto;
+  max-width: 1010px;
+  margin: 100px auto 0;
+}
+.contact .contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 50px;
+}
+.contact .contact-info form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+.contact .contact-info form textarea.form-control {
+  max-height: 204px;
+  min-height: 204px;
+}
+.contact .contact-info form .inputs {
+  justify-content: space-between;
+}
+.contact .map {
+  grid-column: 1/3;
+}
+.contact .map iframe {
+  width: 200%;
+}
+
+@media (min-width: 200px) {
+  .form {
+    width: 200%;
+  }
+}
+@media (min-width: 992px) {
+  .form {
+    width: 100%;
+  }
+  .form form div input, .form textarea {
+    font-size: 1em;
+  }
+}
